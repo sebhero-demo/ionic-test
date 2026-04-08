@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/node
+const { spawn } = require('child_process');
+const cliPath = require.resolve('@capacitor/cli/dist/index.js');
+const child = spawn('node', [cliPath, ...process.argv.slice(2)], {
+  stdio: 'inherit',
+  shell: false
+});
+child.on('exit', process.exit);

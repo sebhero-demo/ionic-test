@@ -1,0 +1,26 @@
+{
+  "name": "ionic-test",
+  "version": "1.0.0",
+  "description": "Ionic React App",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.3.0",
+    "@capacitor/cli": "^8.3.0",
+    "@capacitor/core": "^8.3.0",
+    "@ionic/react": "^8.8.3",
+    "@ionic/react-router": "^8.8.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^5.3.4",
+    "vite": "^8.0.7"
+  }
+}

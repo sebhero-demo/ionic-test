@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
-import './theme/variables.css';
 
 const App: React.FC = () => {
   return (

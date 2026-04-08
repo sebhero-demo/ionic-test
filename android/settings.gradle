@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode = "failOnProjectRep"
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ionic-test"
+include ':app'
+include ':capacitor-android'
